@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #228b22;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-content {
+    max-width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 2rem; */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  #logout {
+    background-color: #ffffff;
+    color: #228b22;
+    border: 2px solid #228b22;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2px;
+  }
+  
+  .home {
+    color: black;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .profile {
+    color: black;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+/* Green header */
+h1 {
+    margin-top: 80px;
+    /* background: #228B22; */
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 24px;
+}
+
+/* Style for the main container */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border-color: #228B22;
+    border-style: solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input fields */
+input {
+    width: 150px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for button */
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: gold;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+/* New styles for expense items */
+.expense-item {
+    display: inline;
+    /* align-items: center; */
+    /* margin: 5px 0; */
+    /* width: 100%;     */
+}
+
+.expense-item label {
+    width: 200px;
+    /* text-align: left; */
+    margin-right: 10px;
+}
